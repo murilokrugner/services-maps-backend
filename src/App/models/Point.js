@@ -1,6 +1,4 @@
-import Sequelize from "sequelize";
-
-import { Model } from "sequelize";
+import Sequelize, { Model } from "sequelize";
 
 class Point extends Model {
   static init(sequelize) {
@@ -17,4 +15,4 @@ class Point extends Model {
   }
 }
 
-module.exports = Point;
+export default Point;
